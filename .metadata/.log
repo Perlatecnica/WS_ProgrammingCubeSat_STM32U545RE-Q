@@ -5070,3 +5070,130 @@ COM7
 
 !ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-14 16:26:16.001
 !MESSAGE port: COM7
+!SESSION 2026-04-16 19:29:33.557 -----------------------------------------------
+eclipse.buildId=Version 2.0.0
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  C:\WS_ProgrammingCubeSat\DC_Motor\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\WS_ProgrammingCubeSat\DC_Motor\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-04-16 19:29:42.481
+!MESSAGE Log4j2 initialized with config file C:\WS_ProgrammingCubeSat_STM32U545RE-Q\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-04-16 19:29:52.945
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-04-16 19:29:57.664
+!MESSAGE Indexed 'DC_Motor' (29 sources, 131 headers) in 2,22 sec: 17.679 declarations; 101.362 references; 1 unresolved inclusions; 120 syntax errors; 247 unresolved names (0,21%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:29:57.868
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM10
+COM3
+COM11
+COM7
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:29:57.868
+!MESSAGE port: COM10
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:29:57.869
+!MESSAGE port: COM3
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:29:57.870
+!MESSAGE port: COM11
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:29:57.871
+!MESSAGE port: COM7
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-04-16 19:37:28.946
+!MESSAGE Indexed 'DC_Motor' (29 sources, 131 headers) in 2,2 sec: 17.690 declarations; 101.515 references; 1 unresolved inclusions; 120 syntax errors; 247 unresolved names (0,21%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:56:42.347
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM10
+COM3
+COM11
+COM7
+COM6
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:56:42.348
+!MESSAGE port: COM10
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:56:42.349
+!MESSAGE port: COM3
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:56:42.350
+!MESSAGE port: COM11
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:56:42.350
+!MESSAGE port: COM7
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:56:42.351
+!MESSAGE port: COM6
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-04-16 19:56:57.448
+!MESSAGE An internal error occurred during: "Launching New_configuration".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.core.model.ICProject.getProject()" because the return value of "org.eclipse.cdt.debug.core.CDebugUtils.getCProject(org.eclipse.debug.core.ILaunchConfiguration)" is null
+	at com.st.stm32cube.ide.mcu.toolchain.ui.ToolChainHelper.validateDebugLaunch(ToolChainHelper.java:38)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.preLaunchCheck(DSFDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:769)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:57:51.580
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM10
+COM3
+COM11
+COM7
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:57:51.581
+!MESSAGE port: COM10
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:57:51.581
+!MESSAGE port: COM3
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:57:51.582
+!MESSAGE port: COM11
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 19:57:51.582
+!MESSAGE port: COM7
+!SESSION 2026-04-16 20:00:56.546 -----------------------------------------------
+eclipse.buildId=Version 2.0.0
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-04-16 20:01:05.249
+!MESSAGE Log4j2 initialized with config file C:\WS_ProgrammingCubeSat_STM32U545RE-Q\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-04-16 20:01:17.222
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 20:01:18.574
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM10
+COM3
+COM11
+COM7
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 20:01:18.575
+!MESSAGE port: COM10
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 20:01:18.576
+!MESSAGE port: COM3
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 20:01:18.578
+!MESSAGE port: COM11
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-04-16 20:01:18.579
+!MESSAGE port: COM7
